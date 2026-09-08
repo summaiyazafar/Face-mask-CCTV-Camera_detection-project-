@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Improper Mask', 'Mask', 'No Mask']
+
+roboflow:
+  workspace: summaiya-bibi
+  project: face-mask-cctv-k07aw
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/summaiya-bibi/face-mask-cctv-k07aw/dataset/1
